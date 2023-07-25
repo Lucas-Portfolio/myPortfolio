@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  background-color: #333;
+  color: whitesmoke;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #333;
+  line-height: 50px;
+}
+
+.Navbar .links {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.HomePage{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+ .HomePage button {
+  background-color: whitesmoke;
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+  width: 140px;
+  height: 40px;
+  font-size: 18px;
+} 
+
+.HomePage .textDiv {
+  font-size: 45px;
+  color: orange;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding-bottom: 40px;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.HomePage button:hover {
+  background-color: orange;
+  color: black;
+  border-color: orange;
+}
