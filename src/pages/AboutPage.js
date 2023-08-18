@@ -14,7 +14,7 @@ function AboutPage() {
 
   return (
     <div className="AboutPage">
-      <Card style={{ width: "18rem", background: "orange" }}>
+      <Card style={{ width: "19rem", background: "orange" }}>
         <Card.Img
           variant="top"
           src="https://res.cloudinary.com/dctxow0kh/image/upload/v1688725707/Foto_epxc6w.jpg"

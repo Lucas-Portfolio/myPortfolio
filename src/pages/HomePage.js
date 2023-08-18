@@ -1,20 +1,35 @@
 import { useNavigate } from "react-router-dom";
+import Image from "react-bootstrap/Image";
+import ReactTyped from "react-typed";
 
 function HomePage() {
   const navigate = useNavigate();
 
   const viewWork = () => {
-    navigate("/work");
+    navigate("/projects");
   };
   return (
     <div className="HomePage">
-      <div className="textDiv">
-        <h1>Hello, I am Lucas Silva</h1>
-        <h2>I am a Full-Stack Developer</h2>
-        <button variant="warning" onClick={() => viewWork()}>
-          View My Work
-        </button>
-      </div>
+      <section className="imgDiv">
+        <Image
+          className="myImg"
+          src="https://res.cloudinary.com/dctxow0kh/image/upload/v1688725707/Foto_epxc6w.jpg"
+          roundedCircle
+        />
+        <h2>Full-Stack Developer </h2>
+        <h1>
+          <ReactTyped
+            strings={["Hello World!", "My name is Lucas."]}
+            typeSpeed={100}
+            backSpeed={100}
+            showCursor={true}
+            backDelay={1}
+            smartBackspace={true}
+            cursorChar="|"
+            loop
+          />
+        </h1>
+      </section>
     </div>
   );
 }
