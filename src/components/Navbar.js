@@ -1,14 +1,23 @@
 function Navbar() {
   return (
-    <div>
+    <section>
       <nav className="Navbar">
-        <div className="links">
-          <a href="/">Home</a>
-          <a href="/work">Work</a>
-          <a href="/contact">Contact</a>
-        </div>
+        <ul className="links">
+          <li>
+            <a href="/">HOME</a>
+          </li>
+          <li>
+            <a href="/work">PROJECTS</a>
+          </li>
+          <li>
+            <a href="/about">ABOUT</a>
+          </li>
+          <li>
+            <a href="/contact">CONTACT</a>
+          </li>
+        </ul>
       </nav>
-    </div>
+    </section>
   );
 }
 
