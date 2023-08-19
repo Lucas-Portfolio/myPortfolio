@@ -4,15 +4,15 @@ function Navbar() {
       <nav className="Navbar">
         <div className="logo">
           <h2>
-            <a href="/">LUCAS SILVA</a>
+            <a href="/">Lucas Gavião</a>
           </h2>
         </div>
         <ul className="links">
           <li>
-            <a href="/">HOME</a>
+            <a href="/projects">PROJECTS</a>
           </li>
           <li>
-            <a href="/work">PROJECTS</a>
+            <a href="/experience">EXPERIENCE</a>
           </li>
           <li>
             <a href="/about">ABOUT</a>

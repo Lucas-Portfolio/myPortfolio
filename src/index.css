@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Rock+Salt&display=swap');
 
 .App {
   background-color: #333;
@@ -29,12 +30,13 @@
 
 .logo h2 a {
   text-decoration: none;
+  font-family: 'Rock Salt', cursive;
   color: whitesmoke;
 }
 
 .logo h2 {
   margin: 10px 90px;
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 600;
   
 }
@@ -117,6 +119,9 @@ width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 700px;
+  position: absolute;
+  top: 1%;
 }
 
 .ContactPage .Form  {

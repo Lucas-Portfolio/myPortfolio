@@ -33,6 +33,7 @@ function ContactPage() {
           amazing projects.
         </span>
       </section>
+      <br />
 
       <Form className="Form">
         <Form.Group className="mb-3">
