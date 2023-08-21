@@ -33,7 +33,6 @@ function ContactPage() {
           amazing projects.
         </span>
       </section>
-      <br />
 
       <Form className="Form">
         <Form.Group className="mb-3">
@@ -54,7 +53,7 @@ function ContactPage() {
         {spinner ? (
           <Spinner animation="border" variant="light" />
         ) : (
-          <Button variant="warning" onClick={handleSend}>
+          <Button className="btn-form" variant="warning" onClick={handleSend}>
             {" "}
             Send{" "}
           </Button>

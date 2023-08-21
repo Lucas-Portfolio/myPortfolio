@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button, Card, Spinner } from "react-bootstrap";
+import github from "../images/github-logo.png";
 
 function AboutPage() {
   const [spinner, setSpinner] = useState(false);
@@ -8,6 +9,14 @@ function AboutPage() {
     setSpinner(!spinner);
     setTimeout(
       () => (window.location.href = "https://linkedin.com/in/lucas-gaviao"),
+      1000
+    );
+  };
+
+  const handleClickGit = () => {
+    setSpinner(!spinner);
+    setTimeout(
+      () => (window.location.href = "https://github.com/Lucas-Gaviao"),
       1000
     );
   };
@@ -28,17 +37,26 @@ function AboutPage() {
           {spinner ? (
             <Spinner animation="border" variant="light" />
           ) : (
-            <Button
-              className="btn-contact"
-              variant="light"
-              onClick={handleClick}
-            >
-              <img
-                src="https://res.cloudinary.com/dctxow0kh/image/upload/v1692363352/image-removebg-preview_gvgres.png"
-                alt="linkedinLogo"
-              />{" "}
-              LinkedIn
-            </Button>
+            <div className="button-group">
+              <Button
+                className="btn-contact"
+                variant="light"
+                onClick={handleClick}
+              >
+                <img
+                  src="https://res.cloudinary.com/dctxow0kh/image/upload/v1692363352/image-removebg-preview_gvgres.png"
+                  alt="linkedinLogo"
+                />{" "}
+              </Button>
+
+              <Button
+                className="btn-github"
+                variant="light"
+                onClick={handleClickGit}
+              >
+                <img src={github} alt="githubLogo" />
+              </Button>
+            </div>
           )}
         </Card.Body>
       </Card>

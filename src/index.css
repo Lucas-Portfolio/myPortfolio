@@ -57,6 +57,10 @@ ul a {
   font-size: 15px;
   font-weight: 600;
 }
+
+ul li:active {
+  box-shadow: rgba(30, 30, 37, 0.537) 0px 7px 29px 0px;
+}
 .HomePage{
 display: flex;
 flex-direction: row;
@@ -131,8 +135,29 @@ width: 100vw;
   transform: translateY(-50%);
 }
 
-.btn-contact img {
-  width: 16px;
-  height: 16px;
+.Form .btn-form {
+  width: 400px;
+  margin-top:10px;
 }
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.btn-contact img {
+  width: 23px;
+  height: 24px;
+  margin-bottom: 2px;
+}
+
+.btn-github img {
+  width: 23px;
+  height: 24px;
+  margin-bottom: 2px;
+}
+
+
 

@@ -1,11 +1,12 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Work from "./pages/Work.js";
+import Projects from "./pages/Projects";
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,10 +15,12 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/projects" element={<Work />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 }
