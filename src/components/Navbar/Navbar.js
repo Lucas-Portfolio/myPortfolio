@@ -1,13 +1,15 @@
+import style from "./navbar.module.css";
+
 function Navbar() {
   return (
     <section>
-      <nav className="Navbar">
-        <div className="logo">
+      <nav className={style.Navbar}>
+        <div className={style.logo}>
           <h2>
             <a href="/">Lucas Gavião</a>
           </h2>
         </div>
-        <ul className="links">
+        <ul className={style.links}>
           <li>
             <a href="/projects">PROJECTS</a>
           </li>

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Rock+Salt&display=swap');
+
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #333;
+    line-height: 2rem;
+    box-shadow: rgba(30, 30, 37, 0.537) 0px 7px 29px 0px;
+  }
+  
+  .Navbar .logo {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center
+  }
+  
+  .logo h2 a {
+    text-decoration: none;
+    font-family: 'Rock Salt', cursive;
+    color: whitesmoke;
+  }
+  
+  .logo h2 {
+    margin: 10px 90px;
+    font-size: 19px;
+    font-weight: 600;
+    
+  }
+  
+  .Navbar ul {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin: 10px 5px;
+    
+  }
+  
+  ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  ul li:active {
+    box-shadow: rgba(30, 30, 37, 0.537) 0px 7px 29px 0px;
+  }

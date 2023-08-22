@@ -1,7 +1,8 @@
 import style from "./footer.module.css";
+
 function Footer() {
   return (
-    <div className="Footer" style={style}>
+    <div className={style.Footer}>
       <span>Created by LucasGavião © 2023</span>
     </div>
   );
