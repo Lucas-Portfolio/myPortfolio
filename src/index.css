@@ -91,24 +91,6 @@ width: 100vw;
   margin-top:10px;
 }
 
-.button-group {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-
-.btn-contact img {
-  width: 23px;
-  height: 24px;
-  margin-bottom: 2px;
-}
-
-.btn-github img {
-  width: 23px;
-  height: 24px;
-  margin-bottom: 2px;
-}
 
 
 

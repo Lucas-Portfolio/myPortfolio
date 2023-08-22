@@ -1,0 +1,46 @@
+.AboutPage {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about_container {
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .about_container p {
+    margin: 0px 20px 50px;
+    text-align: justify;
+  }
+
+  .button_group {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 62%;
+    left: 54%;
+  }
+  
+  
+  .btn_linkedin img {
+    width: 23px;
+    height: 24px;
+    margin-bottom: 2px;
+  }
+  
+  .btn_github img {
+    width: 23px;
+    height: 24px;
+    margin-bottom: 2px;
+  }
+
+  .mypicture {
+    width: 300px;
+    height: 300px;
+  }

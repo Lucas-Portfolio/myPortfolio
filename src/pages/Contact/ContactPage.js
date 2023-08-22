@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Button, Form, Spinner } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import SpinnerComp from "../../components/Spinner/Spinner";
 
 function ContactPage() {
   const [spinner, setSpinner] = useState(false);
@@ -51,7 +52,7 @@ function ContactPage() {
           />
         </Form.Group>
         {spinner ? (
-          <Spinner animation="border" variant="light" />
+          <SpinnerComp />
         ) : (
           <Button className="btn-form" variant="warning" onClick={handleSend}>
             {" "}
