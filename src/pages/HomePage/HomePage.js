@@ -1,18 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import Image from "react-bootstrap/Image";
 import ReactTyped from "react-typed";
+import style from "./home.module.css";
 
 function HomePage() {
-  const navigate = useNavigate();
-
-  const viewWork = () => {
-    navigate("/projects");
-  };
   return (
-    <div className="HomePage">
-      <section className="imgDiv">
+    <div className={style.HomePage}>
+      <section className={style.imgDiv}>
         <Image
-          className="myImg"
+          className={style.myImg}
           src="https://res.cloudinary.com/dctxow0kh/image/upload/v1688725707/Foto_epxc6w.jpg"
           roundedCircle
         />

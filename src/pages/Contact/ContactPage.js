@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import SpinnerComp from "../../components/Spinner/Spinner";
+import style from "./contact.module.css";
 
 function ContactPage() {
   const [spinner, setSpinner] = useState(false);
@@ -24,8 +25,8 @@ function ContactPage() {
   };
 
   return (
-    <div className="ContactPage">
-      <section className="contact-title">
+    <div className={style.ContactPage}>
+      <section className={style.contact_title}>
         {" "}
         <h2> Contact Me</h2>
         <span>
@@ -35,7 +36,7 @@ function ContactPage() {
         </span>
       </section>
 
-      <Form className="Form">
+      <Form className={style.Form}>
         <Form.Group className="mb-3">
           <Form.Label>Email</Form.Label>
           <Form.Control type="email" placeholder="name@example.com" />
@@ -54,7 +55,11 @@ function ContactPage() {
         {spinner ? (
           <SpinnerComp />
         ) : (
-          <Button className="btn-form" variant="warning" onClick={handleSend}>
+          <Button
+            className={style.btn_form}
+            variant="warning"
+            onClick={handleSend}
+          >
             {" "}
             Send{" "}
           </Button>
