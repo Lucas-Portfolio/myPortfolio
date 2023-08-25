@@ -31,16 +31,16 @@ function AboutPage() {
       <div className={style.about_container}>
         <img className={style.mypicture} src={myself} alt="mypicture" />
         <p>
-          I'm Lucas Silva, a dedicated Full-Stack Developer with a Business
-          degree from CCT College Dublin. Originally from Rio de Janeiro,
-          Brazil, and now based in Dublin, I bring a blend of leadership and
-          client relationship skills to my work. My passion lies in web
-          development, and I recently completed an intensive Web Development
-          bootcamp with Ironhack. Proficient in HTML, CSS, JavaScript, Node.js,
-          React.js, MongoDB, and Agile methodologies, I find balance in
-          football, video games, and quality time with loved ones. This exciting
-          chapter marks my transition into the dynamic world of web development,
-          where I'm eager to contribute my expertise and dedication.
+          I'm originally from Rio de Janeiro, Brazil, and now based in Dublin,
+          as most brazilians I love footbal, beach, video games, and quality
+          time with loved ones. I recently decided to change areas and from a
+          Team Leader of a team of 13 in a fast-paced call center, I decided to
+          change and learn something that I was very curious about.. coding.. so
+          I completed an intensive Web Development bootcamp with Ironhack.
+          Proficient in HTML, CSS, JavaScript, Node.js, React.js, MongoDB, and
+          Agile methodologies, This exciting chapter marks my transition into
+          web development, and I am eager to contribute my with my expertise and
+          dedication.
         </p>
       </div>
       {spinner ? (

@@ -26,27 +26,47 @@ function ContactPage() {
 
   return (
     <div className={style.ContactPage}>
+      <section className={style.contact_head}>
+        <h1>CONTACT</h1>
+      </section>
       <section className={style.contact_title}>
         {" "}
-        <h2> Contact Me</h2>
         <span>
-          I am currently looking for a Front-End Dev position or any freelance,
-          but I am very happy to collaborate with other developers to create
-          amazing projects.
+          I am looking for a Full-Time position, but I am also interested in
+          freelancing and collabing with other devs. <br />
+          Let's create something amazing together!
         </span>
       </section>
 
       <Form className={style.Form}>
         <Form.Group className="mb-3">
-          <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="name@example.com" />
+          <Form.Control
+            className={style.input}
+            type="text"
+            placeholder="Name"
+          />
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label>Message</Form.Label>
           <Form.Control
+            className={style.input}
+            type="email"
+            placeholder="Email"
+          />
+        </Form.Group>
+        <Form.Group className="mb-3">
+          <Form.Control
+            className={style.input}
+            type="text"
+            placeholder="Subject"
+          />
+        </Form.Group>
+        <Form.Group className="mb-3">
+          <Form.Control
+            className={style.input}
             as="textarea"
-            rows={3}
+            rows={5}
             value={body}
+            placeholder="Message"
             onChange={(e) => {
               handleChange(e);
             }}
@@ -57,7 +77,7 @@ function ContactPage() {
         ) : (
           <Button
             className={style.btn_form}
-            variant="warning"
+            variant="secondary"
             onClick={handleSend}
           >
             {" "}

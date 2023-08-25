@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom";
 import Image from "react-bootstrap/Image";
 import ReactTyped from "react-typed";
 import style from "./home.module.css";
