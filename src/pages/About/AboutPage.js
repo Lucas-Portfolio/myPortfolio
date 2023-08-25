@@ -9,7 +9,7 @@ import style from "./about.module.css";
 function AboutPage() {
   const [spinner, setSpinner] = useState(false);
 
-  const handleClick = () => {
+  const handleClickLinkedin = () => {
     setSpinner(!spinner);
     setTimeout(
       () => (window.location.href = "https://linkedin.com/in/lucas-gaviao"),
@@ -27,6 +27,7 @@ function AboutPage() {
 
   return (
     <div className={style.AboutPage}>
+      <h1>ABOUT</h1>
       <div className={style.about_container}>
         <img className={style.mypicture} src={myself} alt="mypicture" />
         <p>
@@ -48,18 +49,18 @@ function AboutPage() {
         <div className={style.button_group}>
           <Button
             className={style.btn_linkedin}
-            variant="light"
-            onClick={handleClick}
+            variant="link"
+            onClick={handleClickLinkedin}
           >
             <img src={linkedin} alt="linkedinLogo" />{" "}
           </Button>
 
           <Button
             className={style.btn_github}
-            variant="light"
+            variant="link"
             onClick={handleClickGit}
           >
-            <img src={github} alt="githubLogo" />
+            <img className={style.btn_github} src={github} alt="githubLogo" />
           </Button>
         </div>
       )}

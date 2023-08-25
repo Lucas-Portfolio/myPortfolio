@@ -8,7 +8,7 @@
   height: 100vh;
   font-family: 'Borel', cursive;
   font-family: 'Bricolage Grotesque', sans-serif;
-  overflow: hidden;
+  overflow:scroll;
 }
 
 
