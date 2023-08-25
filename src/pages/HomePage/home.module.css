@@ -7,18 +7,7 @@
     width: 100vw;
     
     }
-    
-     .HomePage button {
-      background-color: whitesmoke;
-      border: 3px solid whitesmoke;
-      border-radius: 5px;
-      width: 140px;
-      height: 40px;
-      font-size: 18px;
-    } 
-
-
-
+  
     .HomePage .imgDiv {
       margin: 200px;
     }
@@ -35,10 +24,12 @@
       box-shadow: rgba(0, 0, 0, 0.656) 0px 2px 10px;
     }
     
-    
-    .HomePage button:hover {
-      background-color: orange;
-      color: black;
-      border-color: orange;
+    @media (max-width: 800px){
+     .HomePage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      top: 1%;
+     } 
     }
-    
