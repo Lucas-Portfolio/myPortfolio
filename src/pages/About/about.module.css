@@ -59,7 +59,7 @@
    .AboutPage{
     position: relative;
     width: 100%;
-    height: 120%;
+    height: 140%;
    }
 
    .about_container{
@@ -83,7 +83,7 @@
    .button_group {
     position: absolute;
     left: 40%;
-    top: 75%;
+    top: 85%;
     margin: 20px 0 0;
    }
 

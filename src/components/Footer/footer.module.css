@@ -6,11 +6,11 @@ top: 95%;
 color: rgba(211, 211, 211, 0.614);
 }
 
-@media (365px <= width <= 800px){
+/* @media (365px <= width <= 800px){
     .Footer {
         width: 100vw;
-        position: sticky;
+        position:static;
         
 
     }
-}
+} */
