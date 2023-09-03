@@ -1,23 +1,23 @@
 import classes from "./navbar.module.css";
 import React from "react";
 
-function NavLinks() {
+const NavLinks = (props) => {
   return (
     <ul className={classes.NavLinks}>
-      <li>
-        <a href="/projects">PROJECTS</a>
+      <li onClick={() => props.isMobile && props.closeMenu()}>
+        <a href="/projects">Projects</a>
       </li>
-      <li>
-        <a href="/experiences">EXPERIENCE</a>
+      <li onClick={() => props.isMobile && props.closeMenu()}>
+        <a href="/experiences">Experience</a>
       </li>
-      <li>
-        <a href="/about">ABOUT</a>
+      <li onClick={() => props.isMobile && props.closeMenu()}>
+        <a href="/about">About</a>
       </li>
-      <li>
-        <a href="/contact">CONTACT</a>
+      <li onClick={() => props.isMobile && props.closeMenu()}>
+        <a href="/contact">Contact</a>
       </li>
     </ul>
   );
-}
+};
 
 export default NavLinks;

@@ -33,10 +33,14 @@ function MobileNav() {
     />
   );
 
+  const closeMobileMenu = () => {
+    setOpen(!open);
+  };
+
   return (
     <nav className={classes.MobileNav}>
       {open ? closeIcon : hamburgerIcon}
-      {open && <NavLinks />}
+      {open && <NavLinks isMobile={true} closeMenu={closeMobileMenu} />}
     </nav>
   );
 }
