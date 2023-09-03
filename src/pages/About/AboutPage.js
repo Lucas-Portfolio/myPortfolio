@@ -43,28 +43,28 @@ function AboutPage() {
           web development, and I am eager to contribute my with my expertise and
           dedication.
         </p>
-      </div>
-      {spinner ? (
-        <SpinnerComp />
-      ) : (
-        <div className={style.button_group}>
-          <Button
-            className={style.btn_linkedin}
-            variant="link"
-            onClick={handleClickLinkedin}
-          >
-            <img src={linkedin} alt="linkedinLogo" />{" "}
-          </Button>
+        {spinner ? (
+          <SpinnerComp />
+        ) : (
+          <div className={style.button_group}>
+            <Button
+              className={style.btn_linkedin}
+              variant="link"
+              onClick={handleClickLinkedin}
+            >
+              <img src={linkedin} alt="linkedinLogo" />{" "}
+            </Button>
 
-          <Button
-            className={style.btn_github}
-            variant="link"
-            onClick={handleClickGit}
-          >
-            <img className={style.btn_github} src={github} alt="githubLogo" />
-          </Button>
-        </div>
-      )}
+            <Button
+              className={style.btn_github}
+              variant="link"
+              onClick={handleClickGit}
+            >
+              <img className={style.btn_github} src={github} alt="githubLogo" />
+            </Button>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

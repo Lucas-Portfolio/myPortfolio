@@ -42,7 +42,7 @@
   background-color: #191919ae;
   border-top: 0.5px solid rgba(186, 186, 186, 0.513);
   border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;  
   list-style: none;
   z-index: 1;
   margin: 0;
@@ -126,7 +126,7 @@
   background-color: #191919ae;
   border-top: 0.5px solid rgba(186, 186, 186, 0.513);
   border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;  
   list-style: none;
   z-index: 1;
   margin: 0;
