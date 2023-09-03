@@ -36,8 +36,8 @@ function AboutPage() {
           as most brazilians I love footbal, beach, video games, and quality
           time with loved ones. I recently decided to change areas and from a
           Team Leader of a team of 13 in a fast-paced call center, I decided to
-          change and learn something that I was very curious about.. coding.. so
-          I completed an intensive Web Development bootcamp with Ironhack.
+          change and learn something that I was very curious about, so I
+          completed an intensive Web Development bootcamp with Ironhack.
           Proficient in HTML, CSS, JavaScript, Node.js, React.js, MongoDB, and
           Agile methodologies, This exciting chapter marks my transition into
           web development, and I am eager to contribute my with my expertise and
