@@ -1,6 +1,7 @@
 import Image from "react-bootstrap/Image";
 import ReactTyped from "react-typed";
 import style from "./home.module.css";
+import React from "react";
 
 function HomePage() {
   return (

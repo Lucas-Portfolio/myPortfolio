@@ -3,6 +3,10 @@ import { Button, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import SpinnerComp from "../../components/Spinner/Spinner";
 import style from "./contact.module.css";
+import phone from "../../images/logos/telephone.png";
+import mail from "../../images/logos/mail.png";
+import placeholder from "../../images/logos/placeholder.png";
+import React from "react";
 
 function ContactPage() {
   const [spinner, setSpinner] = useState(false);
@@ -50,15 +54,15 @@ function ContactPage() {
       </section>
       <div className={style.sub_title}>
         <span>
-          <img src="" alt="" />
+          <img src={phone} alt="phonelogo" />
           +353 83 3795009
         </span>
         <span>
-          <img src="" alt="" />
+          <img src={mail} alt="maillogo" />
           gaviao.lucas@gmail.com
         </span>
         <span>
-          <img src="" alt="" />
+          <img src={placeholder} alt="locationlogo" />
           Dublin, Ireland
         </span>
       </div>

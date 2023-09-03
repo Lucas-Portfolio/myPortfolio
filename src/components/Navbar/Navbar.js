@@ -1,4 +1,5 @@
 import style from "./navbar.module.css";
+import React from "react";
 
 function Navbar() {
   return (
@@ -14,7 +15,7 @@ function Navbar() {
             <a href="/projects">PROJECTS</a>
           </li>
           <li>
-            <a href="/experience">EXPERIENCE</a>
+            <a href="/experiences">EXPERIENCE</a>
           </li>
           <li>
             <a href="/about">ABOUT</a>

@@ -5,6 +5,7 @@ import linkedin from "../../images/logos/image-removebg-preview.png";
 import myself from "../../images/myself/Foto.jpeg";
 import SpinnerComp from "../../components/Spinner/Spinner";
 import style from "./about.module.css";
+import React from "react";
 
 function AboutPage() {
   const [spinner, setSpinner] = useState(false);

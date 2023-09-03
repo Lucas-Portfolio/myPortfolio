@@ -24,10 +24,20 @@
       box-shadow: rgba(0, 0, 0, 0.656) 0px 2px 10px;
     }
     
-    @media (max-width: 800px){
+    @media (max-width: 820px){
      .HomePage {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      height: 100vh;
+      position: relative;
      } 
+
+     .HomePage .imgDiv {
+      position: absolute;
+      top: 1%;
+      transform: translateY(-50%);
+     }
+
+     .imgDiv h1 {
+      font-size: 20px;
+     }
+
     }

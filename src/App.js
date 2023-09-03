@@ -7,6 +7,8 @@ import ContactPage from "./pages/Contact/ContactPage";
 import AboutPage from "./pages/About/AboutPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer/Footer";
+import Experiences from "./pages/Experiences/Experiences";
+import React from "react";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/experiences" element={<Experiences />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />

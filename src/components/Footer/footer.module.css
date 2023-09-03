@@ -1,9 +1,10 @@
 .Footer {
 width: 100vw;
 position: sticky;
-bottom: 0%;
+bottom: 1%;
 top: 95%;
 color: rgba(211, 211, 211, 0.614);
+margin-top: 16vh;
 }
 
 /* @media (365px <= width <= 800px){
