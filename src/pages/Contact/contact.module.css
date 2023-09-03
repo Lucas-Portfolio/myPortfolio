@@ -10,8 +10,12 @@
   .contact_head {
     text-align: center;
     letter-spacing: 0.9em;
-    margin-top: 7vh;
+    margin-top: 14vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     color: rgba(186, 186, 186, 0.513);
+    z-index:auto;
   }
 
   .contact_title {

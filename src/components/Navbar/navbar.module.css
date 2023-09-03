@@ -1,5 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Rock+Salt&display=swap');
 
+@media (max-width: 767px) and (min-height: 773px){
+.Navbar {
+    display: flex;
+    width: 100vw;
+    background-color: #333;
+    line-height: 2rem;
+    box-shadow: rgba(30, 30, 37, 0.537) 0px 7px 29px 0px;
+  }
+  
+  .Navbar .logo {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 5%;
+    top: 0.5em;
+  }
+  
+  .logo h2 a {
+    text-decoration: none;
+    font-family: 'Rock Salt', cursive;
+    color: whitesmoke;
+  }
+  
+  .logo h2 {
+    margin: 10px 0.9em;
+    font-size: 19px;
+    font-weight: 600;
+    
+  }
+  
+  .Navbar nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 3.2em;
+  right: 0em;
+  width: 75%;
+  height: 10em;
+  background-color: #191919;
+  border-top: 2px solid rgba(186, 186, 186, 0.513);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+  list-style: none;
+  z-index: 1;
+  }
+  
+  .Navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .Navbar nav ul li a:hover {
+    border-bottom: 3px solid white;
+  }
+
+  .Navbar .Navigation {
+    display: none;
+  }
+
+  .Navbar .MobileNav {
+    display: flex;
+    align-items: center;
+  }
+
+  .Navbar .MobileNav .Hamburger {
+    position: absolute;
+    right: 5%;
+    top: 0.5em;
+    cursor: pointer;
+  }
+}
+  @media (min-width: 1024px){
 .Navbar {
     display: flex;
     flex-direction: row;
@@ -48,6 +127,11 @@
     font-weight: 600;
   }
   
-  ul li:active {
-    box-shadow: rgba(30, 30, 37, 0.537) 0px 7px 29px 0px;
+  ul li a:hover {
+    border-bottom: 2px solid white;
+  }
+
+  .Navbar .MobileNav {
+    display: none;
+  }
   }
