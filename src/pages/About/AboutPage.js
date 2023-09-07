@@ -1,10 +1,9 @@
 import { useState } from "react";
 import { Button } from "react-bootstrap";
-import linkedin from "../../images/logos/image-removebg-preview.png";
 import myself from "../../images/myself/Foto.jpeg";
 import SpinnerComp from "../../components/Spinner/Spinner";
 import style from "./about.module.css";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import React from "react";
 
 function AboutPage() {
@@ -52,7 +51,12 @@ function AboutPage() {
               variant="link"
               onClick={handleClickLinkedin}
             >
-              <img src={linkedin} alt="linkedinLogo" />{" "}
+              <BsLinkedin
+                className={style.githublogo}
+                size="38px"
+                color="grey"
+                opacity="65%"
+              />{" "}
             </Button>
 
             <Button
@@ -62,8 +66,9 @@ function AboutPage() {
             >
               <BsGithub
                 className={style.githublogo}
-                size="40px"
-                color="white"
+                size="38px"
+                color="grey"
+                opacity="65%"
               />
             </Button>
           </div>

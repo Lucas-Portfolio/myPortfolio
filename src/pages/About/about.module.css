@@ -36,6 +36,7 @@
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.08em;
+    color: rgba(245, 245, 245, 0.676);
     width: 80%;
 
   }
@@ -112,7 +113,6 @@
       font-family: Arial, Helvetica, sans-serif;
       letter-spacing: 0.09em;
       color: rgba(245, 245, 245, 0.676);
-      
       width: 70%;
   
     }
@@ -164,6 +164,7 @@
   
     .AboutPage h1{
       margin-top: 7vh;
+      font-weight: 100;
       letter-spacing: 0.9em;
       color: rgba(211, 211, 211, 0.577);
     }
@@ -180,6 +181,7 @@
       margin: 20px 20px 30px;
       text-align: justify;
       font-family: Arial, Helvetica, sans-serif;
+      color: rgba(245, 245, 245, 0.676);
       font-size: 17px;
     }
   
@@ -248,6 +250,7 @@
       text-align: justify;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 17px;
+      color: rgba(245, 245, 245, 0.676);
       width: 30vw;
     }
   
