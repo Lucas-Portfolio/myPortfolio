@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Button } from "react-bootstrap";
-import github from "../../images/logos/github-logo.png";
 import linkedin from "../../images/logos/image-removebg-preview.png";
 import myself from "../../images/myself/Foto.jpeg";
 import SpinnerComp from "../../components/Spinner/Spinner";
 import style from "./about.module.css";
+import { BsGithub } from "react-icons/bs";
 import React from "react";
 
 function AboutPage() {
@@ -60,7 +60,11 @@ function AboutPage() {
               variant="link"
               onClick={handleClickGit}
             >
-              <img className={style.btn_github} src={github} alt="githubLogo" />
+              <BsGithub
+                className={style.githublogo}
+                size="40px"
+                color="white"
+              />
             </Button>
           </div>
         )}
