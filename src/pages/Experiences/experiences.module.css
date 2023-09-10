@@ -1,6 +1,6 @@
 @media (max-width: 767px) and (min-height: 773px){
 .ExperiencePage{
-    height: 180vh;
+    height: 190vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
     padding: 0;
 }
 
-.ExperiencePage h3, h5 {
+.ExperiencePage h3, h4, h5, h6 {
     color: rgba(55, 178, 255, 0.74);
     margin-top: 3px;
 }
@@ -29,7 +29,7 @@
 .subtitle{
     width: 85vw;
     position: absolute;
-    top: 21vh;
+    top: 22vh;
     left: 50%;
     transform: translateX(-50%);
     text-align: justify;
@@ -44,10 +44,15 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 40vh;
+    top: 59vh;
     text-align: justify;
     letter-spacing: 0.09em;
-    font-size: 16px;
+    font-size: 15.5px;
+}
+
+.block2 .icon {
+    margin-right: 10px;
+    margin-bottom: 8px;
 }
 
 .block1 {
@@ -57,10 +62,14 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 88vh;
+    top: 108vh;
     text-align: justify;
-    letter-spacing: 0.09em;
-    font-size: 16px;
+    letter-spacing: 0.07em;
+    font-size: 15.5px;
+}
+
+.block1 .icon {
+    margin-right: 10px;
 }
 
 

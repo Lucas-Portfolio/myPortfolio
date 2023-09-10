@@ -1,15 +1,32 @@
 import React from "react";
 import classes from "./experiences.module.css";
+import { BsCodeSlash, BsPersonWorkspace } from "react-icons/bs";
 
 function Experiences() {
   return (
     <div className={classes.ExperiencePage}>
       <h1 className={classes.title}>EXPERIENCE</h1>
       <section className={classes.subtitle}>
-        <p>bla bla bla bla bla</p>
+        <p>
+          Coming from a background in Business Administration, I've developed
+          strong communication skills through various experiences. Now, as I
+          venture into a new career path, I'm excited to blend my expertise with
+          fresh challenges. If you're curious about my professional journey,
+          feel free to explore my LinkedIn profile. I look forward to discussing
+          how my diverse skill set can benefit your projects. Thank you for
+          visiting my website.
+        </p>
       </section>
       <section className={classes.block1}>
-        <h3 className={classes.headtext}>Coding</h3>
+        <h3 className={classes.headtext}>
+          <BsCodeSlash
+            className={classes.icon}
+            size="32px"
+            color="rgb(55,178,255)"
+            opacity="65%"
+          />
+          Coding
+        </h3>
         <p>
           A MERN full stack web developer committed to writing clean, clear and
           maintainable code. Besides the MERN stack (MongoDB, Express, React and
@@ -18,7 +35,7 @@ function Experiences() {
           trio HTML 5, CSS and JavaScript (ES6).{" "}
         </p>
         <h5>Full-Stack Web Development</h5>
-        <h5>Ironhack | RMT</h5>
+        <h6>Ironhack | RMT</h6>
         <span>9-week instensive web development bootcamp:</span>
         <ul>
           <li>
@@ -28,18 +45,26 @@ function Experiences() {
             Back-end technologies learned: ExpressJs | NodeJs | MongoDb | Axios
           </li>
         </ul>
-        <h3 className={classes.headtext}>Skills</h3>
-        <h5>Languages</h5>{" "}
+        <h3 className={classes.headtext}> Skills</h3>
+        <h6>Languages</h6>{" "}
         <span>English (fluent); Portuguese (native); Spanish(basic).</span>
-        <h5>Soft Skills </h5>{" "}
+        <h6>Soft Skills </h6>{" "}
         <span>
           Time management, solution oriented, flexible, well-organized, eloquent
           communicator.
         </span>
       </section>
       <section className={classes.block2}>
-        <h3 className={classes.headtext}>Relevant Work Experience</h3>
-        <h5>Team Leader at Permanent TSB</h5>
+        <h4 className={classes.headtext}>
+          <BsPersonWorkspace
+            className={classes.icon}
+            size="25px"
+            color="rgb(55,178,255)"
+            opacity="65%"
+          />
+          Relevant Work Experience
+        </h4>
+        <h6>Team Leader at Permanent TSB</h6>
         <span>
           Abtran Ltd - Customer service provider for a chain of companies
         </span>
