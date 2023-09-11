@@ -1,6 +1,6 @@
 @media (max-width: 767px) and (min-height: 773px){
 .ExperiencePage{
-    height: 190vh;
+    height: 193vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,8 @@
 
 .ExperiencePage h3, h4, h5, h6 {
     color: rgba(55, 178, 255, 0.74);
-    margin-top: 3px;
+    margin-top: 2px;
+    letter-spacing: 0.06em;
 }
 .title{
     text-align: center;
@@ -44,7 +45,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 59vh;
+    top: 151vh;
     text-align: justify;
     letter-spacing: 0.09em;
     font-size: 15.5px;
@@ -62,7 +63,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 108vh;
+    top: 59vh;
     text-align: justify;
     letter-spacing: 0.07em;
     font-size: 15.5px;
@@ -70,13 +71,14 @@
 
 .block1 .icon {
     margin-right: 10px;
+    margin-bottom: 6px;
 }
 
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
     .ExperiencePage{
-        height: 105vh;
+        height: 135vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -103,24 +105,24 @@
         z-index:auto;   
     }
     .subtitle{
-        width: 85vw;
+        width: 70vw;
         position: absolute;
         top: 24vh;
         left: 50%;
         transform: translateX(-50%);
         text-align: justify;
-        letter-spacing: 0.09em;
+        letter-spacing: 0.1em;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px; 
     }
     .block2 {
         display: flex;
         flex-direction: column;
-        width: 85vw;
+        width: 70vw;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 40vh;
+        top: 45vh;
         text-align: justify;
         letter-spacing: 0.09em;
         font-size: 16px;
@@ -134,11 +136,11 @@
     .block1 {
         display: flex;
         flex-direction: column;
-        width: 85vw;
+        width: 70vw;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 65vh;
+        top: 75vh;
         text-align: justify;
         letter-spacing: 0.07em;
         font-size: 16px;
@@ -146,5 +148,80 @@
     
     .block1 .icon {
         margin-right: 10px;
-    }   
+    }  
 }
+
+    @media (min-width: 1024px) {
+        .ExperiencePage{
+            height: 135vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: rgba(245, 245, 245, 0.676);
+            font-family: Arial, Helvetica, sans-serif;
+            overflow: scroll;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .ExperiencePage h3, h4, h5, h6 {
+            color: rgba(55, 178, 255, 0.74);
+            margin-top: 3px;
+        }
+        .title{
+            text-align: center;
+            letter-spacing: 0.3em;
+            margin-top: 7vh;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(186, 186, 186, 0.513);
+            z-index:auto;   
+        }
+        .subtitle{
+            width: 70vw;
+            position: absolute;
+            top: 24vh;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: justify;
+            letter-spacing: 0.1em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px; 
+        }
+        .block2 {
+            display: flex;
+            flex-direction: column;
+            width: 70vw;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 45vh;
+            text-align: justify;
+            letter-spacing: 0.09em;
+            font-size: 16px;
+        }
+        
+        .block2 .icon {
+            margin-right: 10px;
+            margin-bottom: 8px;
+        }
+        
+        .block1 {
+            display: flex;
+            flex-direction: column;
+            width: 70vw;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 75vh;
+            text-align: justify;
+            letter-spacing: 0.07em;
+            font-size: 16px;
+        }
+        
+        .block1 .icon {
+            margin-right: 10px;
+        }   
+    }

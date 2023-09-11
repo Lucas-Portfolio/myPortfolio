@@ -5,6 +5,9 @@ const NavLinks = (props) => {
   return (
     <ul className={classes.NavLinks}>
       <li onClick={() => props.isMobile && props.closeMenu()}>
+        <a href="/">Home</a>
+      </li>
+      <li onClick={() => props.isMobile && props.closeMenu()}>
         <a href="/projects">Projects</a>
       </li>
       <li onClick={() => props.isMobile && props.closeMenu()}>

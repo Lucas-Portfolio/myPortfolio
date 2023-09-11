@@ -12,7 +12,8 @@
   .AboutPage h1 {
     text-align: center;
     letter-spacing: 0.8em;
-    margin-top: 4vh;
+    margin-top: 7vh;
+    width: 100vw;
     color: rgba(186, 186, 186, 0.513);
     z-index:auto;
   }
@@ -24,7 +25,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 14%;
+    top: 18vh;
     left: 50%;
     transform: translateX(-50%);
     overflow: auto;

@@ -1,6 +1,11 @@
 import React from "react";
 import classes from "./experiences.module.css";
-import { BsCodeSlash, BsPersonWorkspace } from "react-icons/bs";
+import {
+  BsCodeSlash,
+  BsPersonWorkspace,
+  BsFillBuildingFill,
+} from "react-icons/bs";
+import { GiNetworkBars } from "react-icons/gi";
 
 function Experiences() {
   return (
@@ -45,7 +50,15 @@ function Experiences() {
             Back-end technologies learned: ExpressJs | NodeJs | MongoDb | Axios
           </li>
         </ul>
-        <h3 className={classes.headtext}> Skills</h3>
+        <h3 className={classes.headtext}>
+          <GiNetworkBars
+            className={classes.icon}
+            size="25px"
+            color="rgb(55,178,255)"
+            opacity="65%"
+          />
+          Skills
+        </h3>
         <h6>Languages</h6>{" "}
         <span>English (fluent); Portuguese (native); Spanish(basic).</span>
         <h6>Soft Skills </h6>{" "}
@@ -74,12 +87,22 @@ function Experiences() {
             of a team of 15 people, daily meetings to align and track progress,
             product specialist.
           </li>
-          <li>
-            Report bugs or design flaws on the website or on the app, constantly
-            doing surveys to improve online functionality and help the business
-            to develop a user-friendly service to customers.
-          </li>
         </ul>
+        <h4>
+          <BsFillBuildingFill
+            className={classes.icon}
+            size="25px"
+            color="rgb(55,178,255)"
+            opacity="65%"
+          />
+          Education
+        </h4>
+        <h6>Full Stack Web Development Certificate</h6>
+        <span>Ironhack</span>
+        <h6>Bachelor in Business</h6>
+        <span>CCT College Dublin</span>
+        <h6>Advanced English Course</h6>
+        <span>Erin School of English</span>
       </section>
     </div>
   );
