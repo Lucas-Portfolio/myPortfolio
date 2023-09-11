@@ -103,9 +103,9 @@
     }
   
     .contact_title {
-      width: 80vw;
+      width: 70vw;
       position: absolute;
-      top: 25vh;
+      top: 23vh;
       left: 50%;
       transform: translateX(-50%);
       text-align: justify;
@@ -115,9 +115,9 @@
     }
   
     .ContactPage .sub_title {
-      width: 80vw;
+      width: 75vw;
       position: absolute;
-      top: 36%;
+      top: 31vh;
       left: 50%;
       transform: translateX(-50%);
       display: flex;
@@ -133,11 +133,9 @@
     }
     
     .ContactPage .Form  {
-      width: 80vw;
+      width: 70vw;
       position: absolute;
-      top: 58%;
-      transform: translateY(-42%);
-  
+      top: 35vh;
     }
     .Form .input {
       background-color: white;
@@ -154,12 +152,12 @@
     }
   
     .Form .btn_form:hover {
-      background-color: skyblue;
-      border: skyblue solid 1px;
+      background-color: rgba(55, 178, 255, 0.74);
+      border: rgba(55, 178, 255, 0.74) solid 1px;
     }
     .btn_group {
       position: absolute;
-      top: 80vh;
+      top: 73vh;
     }
     .btn_group:hover {
       cursor: pointer;
@@ -234,8 +232,8 @@
     }
   
     .Form .btn_form:hover {
-      background-color: skyblue;
-      border: skyblue solid 1px;
+      background-color: rgba(55, 178, 255, 0.74);
+      border: rgba(55, 178, 255, 0.74) solid 1px;
     }
     .btn_group {
       position: absolute;
