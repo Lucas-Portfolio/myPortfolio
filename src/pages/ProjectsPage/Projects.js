@@ -5,6 +5,8 @@ import CardGroup from "react-bootstrap/CardGroup";
 import classes from "./projects.module.css";
 import { BsGithub } from "react-icons/bs";
 import project1 from "../../images/projects/Screenshot 2023-09-13 at 21.15.03.png";
+import project2 from "../../images/projects/budbudgeting.png";
+import project3 from "../../images/projects/little-moments.png";
 function Projects() {
   return (
     <section className={classes.ProjectsPage}>
@@ -29,8 +31,33 @@ function Projects() {
             <Card.Text>
               Star-Wars themed game, built with HTML5, CSS and JavaScript.
             </Card.Text>
-            <Button variant="primary">View Demo</Button>
-            <Button variant="light">
+            <Button variant="secondary">View Demo</Button>
+            <Button className={classes.gitHubBtn} variant="light">
+              <BsGithub
+                className={classes.githublogo}
+                size="22px"
+                color="black"
+                opacity="100%"
+              />{" "}
+              Github
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card
+          className={classes.card}
+          bg="dark"
+          text="white"
+          style={{ width: "18rem" }}
+        >
+          <Card.Img variant="top" bg="dark" src={project2} />
+          <Card.Body>
+            <Card.Title>Budbudgeting</Card.Title>
+            <Card.Text>
+              Finance Budgeting Website build in two parts(back-end and
+              front-end) using MERN Stack.
+            </Card.Text>
+            <Button variant="secondary">View Demo</Button>
+            <Button className={classes.gitHubBtn} variant="light">
               <BsGithub
                 className={classes.githublogo}
                 size="24px"
@@ -47,39 +74,14 @@ function Projects() {
           text="white"
           style={{ width: "18rem" }}
         >
-          <Card.Img variant="top" bg="dark" src="holder.js/100px180" />
+          <Card.Img variant="top" bg="dark" src={project3} />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Little Moments</Card.Title>
             <Card.Text>
-              Star-Wars themed game, built with HTML5, CSS and JavaScript.
+              Gift List Website built with an dedicated REST API and MERN Stack.
             </Card.Text>
-            <Button variant="primary">View Demo</Button>
-            <Button variant="light">
-              <BsGithub
-                className={classes.githublogo}
-                size="24px"
-                color="black"
-                opacity="100%"
-              />{" "}
-              Github
-            </Button>
-          </Card.Body>
-        </Card>
-        <Card
-          className={classes.card}
-          bg="dark"
-          text="white"
-          style={{ width: "18rem" }}
-        >
-          <Card.Img variant="top" bg="dark" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">View Demo</Button>
-            <Button variant="light">
+            <Button variant="secondary">View Demo</Button>
+            <Button className={classes.gitHubBtn} variant="light">
               <BsGithub
                 className={classes.githublogo}
                 size="24px"
