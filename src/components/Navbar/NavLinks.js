@@ -4,9 +4,11 @@ import React from "react";
 const NavLinks = (props) => {
   return (
     <ul className={classes.NavLinks}>
-      <li onClick={() => props.isMobile && props.closeMenu()}>
-        <a href="/">Home</a>
-      </li>
+      {props.isMobile && (
+        <li onClick={() => props.isMobile && props.closeMenu()}>
+          <a href="/">Home</a>
+        </li>
+      )}
       <li onClick={() => props.isMobile && props.closeMenu()}>
         <a href="/projects">Projects</a>
       </li>

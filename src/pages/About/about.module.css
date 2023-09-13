@@ -36,7 +36,7 @@
     font-size: 15px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.05em;
     color: rgba(245, 245, 245, 0.676);
     width: 80%;
 
@@ -54,7 +54,7 @@
   .button_group {
     position: absolute;
     left: 50%;
-    top: 85%;
+    top: 80vh;
     transform: translateX(-50%);
     margin: 20px 0 0;
   }

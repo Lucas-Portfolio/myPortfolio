@@ -151,13 +151,11 @@
     }  
 }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1024px) and (min-height: 600px) {
         .ExperiencePage{
-            height: 135vh;
+            height: 150vh;
             width: 100vw;
             display: flex;
-            flex-direction: column;
-            align-items: center;
             color: rgba(245, 245, 245, 0.676);
             font-family: Arial, Helvetica, sans-serif;
             overflow: scroll;
@@ -180,26 +178,26 @@
             z-index:auto;   
         }
         .subtitle{
-            width: 70vw;
+            width: 85vw;
             position: absolute;
-            top: 24vh;
+            top: 30vh;
             left: 50%;
             transform: translateX(-50%);
             text-align: justify;
-            letter-spacing: 0.1em;
+            letter-spacing: 0.05em;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 16px; 
         }
         .block2 {
             display: flex;
             flex-direction: column;
-            width: 70vw;
+            width: 40vw;
             position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            top: 45vh;
+            left: 80%;
+            transform: translateX(-68%);
+            top: 55vh;
             text-align: justify;
-            letter-spacing: 0.09em;
+            letter-spacing: 0.05em;
             font-size: 16px;
         }
         
@@ -211,17 +209,99 @@
         .block1 {
             display: flex;
             flex-direction: column;
-            width: 70vw;
+            width: 40vw;
             position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            top: 75vh;
+            left: 20%;
+            transform: translateX(-30%);
+            top: 55vh;
             text-align: justify;
-            letter-spacing: 0.07em;
+            letter-spacing: 0.05em;
             font-size: 16px;
         }
         
         .block1 .icon {
             margin-right: 10px;
         }   
+
+        .block1 span {
+            letter-spacing: 0.05em;
+        }
+    }
+
+    @media (min-width: 1280px) and (min-height: 750px) {
+        .ExperiencePage{
+            height: 130vh;
+            width: 100vw;
+            display: flex;
+            color: rgba(245, 245, 245, 0.676);
+            font-family: Arial, Helvetica, sans-serif;
+            overflow: scroll;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .ExperiencePage h3, h4, h5, h6 {
+            color: rgba(55, 178, 255, 0.74);
+            margin-top: 3px;
+        }
+        .title{
+            text-align: center;
+            letter-spacing: 0.9em;
+            margin-top: 7vh;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(186, 186, 186, 0.513);
+            z-index:auto;   
+        }
+        .subtitle{
+            width: 70vw;
+            position: absolute;
+            top: 30vh;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: justify;
+            letter-spacing: 0.05em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px; 
+        }
+        .block2 {
+            display: flex;
+            flex-direction: column;
+            width: 32.5vw;
+            position: absolute;
+            left: 75%;
+            transform: translateX(-70%);
+            top: 50vh;
+            text-align: justify;
+            letter-spacing: 0.05em;
+            font-size: 16px;
+        }
+        
+        .block2 .icon {
+            margin-right: 10px;
+            margin-bottom: 8px;
+        }
+        
+        .block1 {
+            display: flex;
+            flex-direction: column;
+            width: 32.5vw;
+            position: absolute;
+            left: 25%;
+            transform: translateX(-30%);
+            top: 50vh;
+            text-align: justify;
+            letter-spacing: 0.05em;
+            font-size: 16px;
+        }
+        
+        .block1 .icon {
+            margin-right: 10px;
+        }   
+
+        .block1 span {
+            letter-spacing: 0.05em;
+        }
+
     }

@@ -59,9 +59,9 @@ function Experiences() {
           />
           Skills
         </h3>
-        <h6>Languages</h6>{" "}
-        <span>English (fluent); Portuguese (native); Spanish(basic).</span>
-        <h6>Soft Skills </h6>{" "}
+        <h6>Languages:</h6>
+        <span>English(fluent); Portuguese(native); Spanish(basic).</span>
+        <h6>Soft Skills: </h6>
         <span>
           Time management, solution oriented, flexible, well-organized, eloquent
           communicator.
@@ -99,7 +99,7 @@ function Experiences() {
         </h4>
         <h6>Full Stack Web Development Certificate</h6>
         <span>Ironhack</span>
-        <h6>Bachelor in Business</h6>
+        <h6>Bachelor w/ Hons in Business</h6>
         <span>CCT College Dublin</span>
         <h6>Advanced English Course</h6>
         <span>Erin School of English</span>
