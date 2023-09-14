@@ -13,7 +13,7 @@ function AboutPage() {
     setSpinner(!spinner);
     setTimeout(
       () => (window.location.href = "https://linkedin.com/in/lucas-gaviao"),
-      1000
+      500
     );
   };
 
@@ -21,7 +21,7 @@ function AboutPage() {
     setSpinner(!spinner);
     setTimeout(
       () => (window.location.href = "https://github.com/Lucas-Gaviao"),
-      1000
+      500
     );
   };
 
