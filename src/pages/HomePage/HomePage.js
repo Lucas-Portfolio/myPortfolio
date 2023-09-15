@@ -12,10 +12,10 @@ function HomePage() {
           src="https://res.cloudinary.com/dctxow0kh/image/upload/v1688725707/Foto_epxc6w.jpg"
           roundedCircle
         />
-        <h2>Full-Stack Developer </h2>
+        <p>Full-Stack Developer </p>
         <h1>
           <ReactTyped
-            strings={["Hello World!", "My name is Lucas."]}
+            strings={["Hello There!", "My name is Lucas."]}
             typeSpeed={100}
             backSpeed={100}
             showCursor={true}

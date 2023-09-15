@@ -84,7 +84,7 @@ function Projects() {
               />
               <Card.Body>
                 <Card.Title className={classes.headcard}>Star Lord</Card.Title>
-                <Card.Text>
+                <Card.Text className={classes.p}>
                   Star-Wars themed game which was created using DOM, OOP, HTML,
                   CSS and vanilla JavaScrpit.
                 </Card.Text>
@@ -130,9 +130,9 @@ function Projects() {
                 <Card.Title className={classes.headcard}>
                   Budbudgeting
                 </Card.Title>
-                <Card.Text>
-                  Comprehensive financial management platform created using MERN
-                  Stack and Bootstrap for styling.
+                <Card.Text className={classes.p}>
+                  Financial management platform created using MERN Stack and
+                  Bootstrap for styling.
                 </Card.Text>
                 {spinner2 ? (
                   <SpinnerComp />
@@ -177,7 +177,7 @@ function Projects() {
                 <Card.Title className={classes.headcard}>
                   Little Moments
                 </Card.Title>
-                <Card.Text>
+                <Card.Text className={classes.p}>
                   Gift List Website leveraging its own API created with and MERN
                   Stack, bootstrap for styling.
                 </Card.Text>

@@ -10,11 +10,11 @@
     
     }
     
-    .imgDiv h2 {
+    .imgDiv p {
       margin-top: 1.5rem;
       opacity:0.3;
       color: lightgray;
-      font-size: 25px;
+      font-style: normal;
       width: 100%;
       font-family: Arial, Helvetica, sans-serif;
     }

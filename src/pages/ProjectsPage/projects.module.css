@@ -4,10 +4,10 @@
     height: 160vh;
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
 }
 
 .ProjectsPage h1 {
-    text-align: center;
     letter-spacing: 0.7em;
     margin-top: 7vh;
     width: 100vw;
@@ -19,13 +19,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
+    gap: 1.5em;
     margin-top: 8vh;
+    
 }
 
 .card {
     color: rgba(186, 186, 186, 0.513);
     align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    opacity: 75%;
 }
 
 .card .headcard {
@@ -34,6 +38,7 @@
 
 .card:hover {
     box-shadow: aqua 0px 2px 15px, aqua 0px 1px 15px;
+    opacity: 100%;
 }
 
 .card img {
@@ -113,9 +118,9 @@
     }  
 }
 
-@media (min-width: 1023px) and (min-height: 550px){
+@media (min-width: 1024px) and (max-width: 1280px){
     .ProjectsPage{
-        height: 160vh;
+        height: auto;
         width: 100vw;
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -123,6 +128,7 @@
     .ProjectsPage h1 {
         text-align: center;
         letter-spacing: 0.7em;
+        font-size: 32px;
         margin-top: 7vh;
         width: 100vw;
         color: rgba(186, 186, 186, 0.513);
@@ -133,7 +139,8 @@
         display: flex;
         align-items: center;
         margin-top: 15vh;
-        width: 1000px;
+        width: 80vw;
+        margin-left: 10vw;
         gap: 1em;
         
     }
@@ -141,6 +148,7 @@
     .card {
         color: rgba(186, 186, 186, 0.513);
         align-items: center;
+        opacity: 75%;
     }
     
     .card .headcard {
@@ -148,7 +156,82 @@
     }
     
     .card:hover {
-        box-shadow: aqua 0px 2px 15px, aqua 0px 1px 15px;
+        box-shadow: rgba(0, 255, 255, 0.662) 0px 2px 15px, rgba(0, 255, 255, 0.626) 0px 1px 15px;
+        opacity: 100%;
+    }
+    
+    .card img {
+        max-width: 90%;
+        height: 200px;
+        margin-top: 5%;
+        border-radius: 3px;
+    }
+    .card .p {
+        width: 90%;
+        text-align: center;
+        letter-spacing: 0.01rem;
+        margin-left: 5%;
+    }
+    
+    .githublogo{
+        margin-bottom: 0.1em;
+    }
+    
+    .gitHubBtn {
+        margin-left: 5px;
+        width: 110px;
+        height: 38px;
+    }
+    
+    }
+
+@media (min-width: 1280px) and (max-width: 1499px){
+    .ProjectsPage{
+        height: 100vh;
+        width: 100vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ProjectsPage h1 {
+        text-align: center;
+        letter-spacing: 0.7em;
+        font-size: 32px;
+        margin-top: 7vh;
+        width: 100vw;
+        color: rgba(186, 186, 186, 0.513);
+        z-index:auto;
+    }
+    
+    .myCardGroup {
+        display: flex;
+        align-items: center;
+        margin-top: 15vh;
+        width: 70vw;
+        margin-left: 15vw;
+        gap: 1em;
+        
+    }
+    
+    .card {
+        color: rgba(186, 186, 186, 0.513);
+        align-items: center;
+        opacity: 75%;
+    }
+
+    .card .p {
+        width: 90%;
+        text-align: center;
+        letter-spacing: 0.01rem;
+        margin-left: 5%;
+    }
+    
+    .card .headcard {
+        font-weight: bold;
+    }
+    
+    .card:hover {
+        box-shadow: rgba(0, 255, 255, 0.662) 0px 2px 15px, rgba(0, 255, 255, 0.626) 0px 1px 15px;
+        opacity: 100%;
     }
     
     .card img {
@@ -169,5 +252,74 @@
     }
     
     }
+
+@media (min-width: 1500px){
+    .ProjectsPage{
+        height: 77vh;
+        width: 100vw;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
     
+    .ProjectsPage h1 {
+        text-align: center;
+        letter-spacing: 0.7em;
+        font-size: 32px;
+        margin-top: 7vh;
+        width: 100vw;
+        color: rgba(186, 186, 186, 0.513);
+        z-index:auto;
+    }
+    
+    .myCardGroup {
+        display: flex;
+        align-items: center;
+        margin-top: 14vh;
+        width: 55vw;
+        margin-left: 22.5vw;
+        gap: 1em;
+    }
+    
+    .card {
+        color: rgba(186, 186, 186, 0.513);
+        align-items: center;
+        opacity: 75%;
+    }
+    
+    .card .headcard {
+        font-weight: bold;
+    }
+    
+    .card:hover {
+        box-shadow: rgba(0, 255, 255, 0.662) 0px 2px 15px, rgba(0, 255, 255, 0.626) 0px 1px 15px;
+        opacity: 100%;
+    }
+
+    .card .p {
+        width: 90%;
+        text-align: center;
+        letter-spacing: 0.01rem;
+        margin-left: 5%;
+    }
+    
+    .card img {
+        max-width: 90%;
+        height: 200px;
+        margin-top: 5%;
+        border-radius: 3px;
+    }
+    
+    .githublogo{
+        margin-bottom: 0.1em;
+    }
+    
+    .gitHubBtn {
+        margin-left: 1em;
+        width: 110px;
+        height: 38px;
+    }
+    
+    }
+
+
     
