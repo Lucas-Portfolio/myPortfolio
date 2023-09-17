@@ -44,7 +44,7 @@ function ContactPage() {
     );
   };
 
-  const handleSend = () => {
+  const handleSubmit = () => {
     setSpinner(!spinner);
     setTimeout(() => {
       window.open(
@@ -131,10 +131,10 @@ function ContactPage() {
           <Button
             className={style.btn_form}
             variant="secondary"
-            onClick={handleSend}
+            onClick={(e) => handleSubmit()}
           >
             {" "}
-            Send{" "}
+            Submit{" "}
           </Button>
         )}
       </Form>
@@ -143,7 +143,7 @@ function ContactPage() {
         <Button
           className={style.btn_linkedin}
           variant="link"
-          onClick={handleClickLinkedin}
+          onClick={() => handleClickLinkedin()}
         >
           <BsLinkedin
             className={style.githublogo}
@@ -156,7 +156,7 @@ function ContactPage() {
         <Button
           className={style.btn_github}
           variant="link"
-          onClick={handleClickGit}
+          onClick={(e) => handleClickGit()}
         >
           <BsGithub
             className={style.githublogo}
