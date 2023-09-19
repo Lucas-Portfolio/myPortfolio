@@ -78,7 +78,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px){
     .ExperiencePage{
-        height: 135vh;
+        height: 141vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -122,7 +122,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 45vh;
+        top: 47vh;
         text-align: justify;
         letter-spacing: 0.09em;
         font-size: 16px;
@@ -140,7 +140,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 75vh;
+        top: 92vh;
         text-align: justify;
         letter-spacing: 0.07em;
         font-size: 16px;

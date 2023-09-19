@@ -1,5 +1,5 @@
 import Image from "react-bootstrap/Image";
-//import ReactTyped from "react-typed";
+import ReactTyped from "react-typed";
 import style from "./home.module.css";
 import React from "react";
 
@@ -14,7 +14,7 @@ function HomePage() {
         />
         <p>Full-Stack Developer </p>
         <h1>
-          {/* <ReactTyped
+          <ReactTyped
             strings={["Hello There!", "My name is Lucas."]}
             typeSpeed={100}
             backSpeed={100}
@@ -23,7 +23,7 @@ function HomePage() {
             smartBackspace={true}
             cursorChar="|"
             loop
-          /> */}
+          />
         </h1>
       </section>
     </div>
