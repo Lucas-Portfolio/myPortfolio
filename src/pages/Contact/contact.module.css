@@ -1,74 +1,57 @@
-@media (max-width: 767px) and (min-height: 773px)
- {
-
 .ContactPage {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-    color: rgba(245, 245, 245, 0.676);
+  
   }
   .contact_head {
     text-align: center;
-    letter-spacing: 0.9em;
-    margin-top: 7vh;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    color: rgba(186, 186, 186, 0.513);
-    z-index:auto;
+    letter-spacing: 0.8em;
+    margin: 60px;
+    color: rgba(211, 211, 211, 0.577);
   }
 
   .contact_title {
-    width: 90vw;
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
     position: absolute;
-    top: 25vh;
+    top: 5%;
     left: 50%;
-    transform: translateX(-50%);
-    text-align: justify;
-    letter-spacing: 0.09em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    transform: translateX(-65%);
+    text-align: center;
+    letter-spacing: 0.1em;
   }
 
   .ContactPage .sub_title {
-    width: 95vw;
+    width: 30%;
     position: absolute;
-    top: 39%;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 27%;
     display: flex;
-    text-align: center;
     justify-content: space-around;
-    font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .sub_title img {
-    width: 15px;
-    margin: 0 2px;
   }
   
   .ContactPage .Form  {
-    width: 90vw;
+    width: 30%;
     position: absolute;
-    top: 59%;
-    transform: translateY(-41%);
+    top: 50%;
+    transform: translateY(-46%);
+    color: white;
 
   }
   .Form .input {
     background-color: white;
-    border-radius: 6px;
+    border-radius: 0%;
     border: #333 solid 1px;
-    line-height: 1.5em;
-    letter-spacing: 0.07em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    line-height: 2em;
+    letter-spacing: 0.1em;
   }
 
   .Form .btn_form {
     width: 100%;
-    height: 2.5em;
+    height: 3em;
   }
 
   .Form .btn_form:hover {
@@ -76,172 +59,33 @@
     border: skyblue solid 1px;
   }
 
-  .btn_group {
-    position: absolute;
-    top: 85vh;
-  }
-  .btn_group:hover {
-    cursor: pointer;
-  }
-}
 
-  @media (min-width: 768px)
-  and (max-width: 1023px){
-    .ContactPage {
+  @media (365px <= width <= 800px){
+    .ContactPage{
+      height: 120%;
+      position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 100vw;
-      height: 100vh;
-      color: rgba(245, 245, 245, 0.676);
     }
-    .contact_head {
-      text-align: center;
-      letter-spacing: 0.9em;
-      margin-top: 7vh;
-      color: rgba(186, 186, 186, 0.513);
-    }
-  
-    .contact_title {
-      width: 70vw;
+    .contact_head{
       position: absolute;
-      top: 23vh;
-      left: 50%;
-      transform: translateX(-50%);
+      top: 0%
+    }
+
+    .contact_title{
+      position:absolute;
+      top: 5%;
+      width: 80%;
+      margin: 13% 13%;
+      font-size: 1em;
       text-align: justify;
-      letter-spacing: 0.05em;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 16px;
+      letter-spacing: 0.1em;
     }
-  
-    .ContactPage .sub_title {
-      width: 75vw;
+    .ContactPage .Form {
+      width: 50%;
       position: absolute;
-      top: 31vh;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      text-align: center;
-      justify-content: space-around;
-      font-size: 14px;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-  
-    .sub_title img {
-      width: 16px;
-      margin: 0px 4px 1px 0px;
-    }
-    
-    .ContactPage .Form  {
-      width: 70vw;
-      position: absolute;
-      top: 35vh;
-    }
-    .Form .input {
-      background-color: white;
-      border-radius: 6px;
-      border: #333 solid 1px;
-      line-height: 1.7em;
-      letter-spacing: 0.07em;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 16px;
-    }
-    .Form .btn_form {
-      width: 100%;
-      height: 2.5em;
-    }
-  
-    .Form .btn_form:hover {
-      background-color: rgba(55, 178, 255, 0.74);
-      border: rgba(55, 178, 255, 0.74) solid 1px;
-    }
-    .btn_group {
-      position: absolute;
-      top: 73vh;
-    }
-    .btn_group:hover {
-      cursor: pointer;
+      top: 53%;
+      left: 26%;
     }
   }
- 
-  @media (min-width: 1024px) and (min-height: 600px ){
-    .ContactPage {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      overflow: auto;
-      height: 150vh;
-      color: rgba(245, 245, 245, 0.676);
-    }
-    .contact_head {
-      text-align: center;
-      letter-spacing: 1em;
-      margin-top: 15vh;
-      font-size: 28px;
-      color: rgba(186, 186, 186, 0.513);
-    }
-  
-    .contact_title {
-      width: 65vw;
-      position: absolute;
-      top: 50vh;
-      left: 50%;
-      transform: translateX(-50%);
-      text-align: justify;
-      letter-spacing: 0.02em;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 16px;
-    }
-  
-    .ContactPage .sub_title {
-      width: 80vw;
-      position: absolute;
-      top: 63vh;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      text-align: center;
-      justify-content: space-evenly;
-      font-size: 14px;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-  
-    .sub_title img {
-      width: 1.3em;
-      margin: 0px 5px 1px 0px;
-    }
-    
-    .ContactPage .Form  {
-      width: 65vw;
-      position: absolute;
-      top: 70vh;
-  
-    }
-    .Form .input {
-      background-color: white;
-      border-radius: 4px;
-      border: #333 solid 1px;
-      line-height: 1.7em;
-      letter-spacing: 0.07em;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 16px;
-    }
-    .Form .btn_form {
-      width: 100%;
-      height: 2.5em;
-    }
-  
-    .Form .btn_form:hover {
-      background-color: rgba(55, 178, 255, 0.74);
-      border: rgba(55, 178, 255, 0.74) solid 1px;
-    }
-    .btn_group {
-      position: absolute;
-      top: 135vh;
-    }
-    .btn_group:hover {
-      cursor: pointer;
-    }
-  }
- 
-  

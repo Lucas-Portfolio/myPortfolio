@@ -1,64 +1,39 @@
-
-@media(max-width: 767px) and (min-height: 800px){
-  .AboutPage{
+.AboutPage {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .AboutPage h1 {
+    justify-content: center;
     text-align: center;
+    font-weight: lighter;
+  }
+
+  .AboutPage h1{
+    margin: 60px;
     letter-spacing: 0.8em;
-    margin-top: 7vh;
-    width: 100vw;
-    color: rgba(186, 186, 186, 0.513);
-    z-index:auto;
+    color: rgba(211, 211, 211, 0.577);
   }
 
-  .about_container{
+  .about_container {
+    width: 50%;
+    position: absolute;
+    top: 25%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 18vh;
-    left: 50%;
-    transform: translateX(-50%);
-    overflow: auto;
-  } 
-  
+    align-items: center; 
+  }
+
   .about_container p {
-    margin-top: 35px;
-    font-size: 15px;
+    margin: 20px 20px 50px;
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 0.05em;
-    color: rgba(245, 245, 245, 0.676);
-    width: 80%;
-
-  }
-  
-  .about_container .mypicture {
-    border-radius: 150px;
   }
 
-  .about_container img {
-    width: 250px;
-    height: 250px;
-  }
-  
   .button_group {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     position: absolute;
-    left: 50%;
-    top: 80vh;
-    transform: translateX(-50%);
-    margin: 20px 0 0;
+    top: 63%;
+    left: 54%;
   }
-
+  
   .btn_linkedin img {
     width: 35px;
     height: 35px;
@@ -68,219 +43,48 @@
   }
   
   .btn_github img {
-    width: 38px;
-    height: 38px;
+    width: 35px;
+    height: 35px;
     margin-bottom: 2px;
-    background-color: rgba(255, 255, 255, 0.026);
+    background-color: #333;
     border-radius: 150px;
   }
-}
 
-  @media (min-width: 768px) and (max-width: 1023px){
-    .AboutPage{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-    }
-  
-    .AboutPage h1 {
-      text-align: center;
-      letter-spacing: 0.9em;
-      margin-top: 7vh;
-      color: rgba(186, 186, 186, 0.513);
-      z-index:auto;
-    }
-  
-    .about_container{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 18%;
-      left: 50%;
-      transform: translateX(-50%);
-      overflow: auto;
-    } 
-    
-    .about_container p {
-      margin-top: 35px;
-      font-size: 16px;
-      text-align: justify;
-      font-family: Arial, Helvetica, sans-serif;
-      letter-spacing: 0.09em;
-      color: rgba(245, 245, 245, 0.676);
-      width: 70%;
-  
-    }
-    
-    .about_container .mypicture {
-      border-radius: 150px;
-    }
-  
-    .about_container img {
-      width: 300px;
-      height: 300px;
-    }
-    
-    .button_group {
-      position: absolute;
-      left: 50%;
-      top: 62%;
-      transform: translateX(-50%);
-      margin: 20px 0 0;
-    }
-  
-    .btn_linkedin img {
-      width: 50px;
-      height: 50px;
-      margin: 0 30px 0px 0;
-      background-color: white;
-      border-radius: 8px;
-    }
-    
-    .btn_github img {
-      width: 52px;
-      height: 52px;
-      margin: 0 0px 0 10px;
-      background-color: rgba(255, 255, 255, 0.026);
-      border-radius: 150px;
-    }
+  .mypicture {
+    width: 300px;
+    height: 300px;
   }
 
-  @media(min-width: 1024px) and (max-width: 1280px) {
-  
-  .AboutPage {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      font-weight: lighter;
-      width: 100vw;
-      height: 100vh;
-    }
-  
-    .AboutPage h1{
-      margin-top: 7vh;
-      font-weight: 100;
-      letter-spacing: 0.9em;
-      color: rgba(211, 211, 211, 0.577);
-    }
-  
-    .about_container {
-      width: 80%;
-      position: absolute;
-      top: 38%;
-      display: flex;
-      align-items: center; 
-    }
-  
-    .about_container p {
-      margin: 20px 20px 30px;
-      text-align: justify;
-      font-family: Arial, Helvetica, sans-serif;
-      color: rgba(245, 245, 245, 0.676);
-      font-size: 17px;
-    }
-  
-    .button_group {
-      width: auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      position: absolute;
-      top: 110%;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-    
-    .btn_linkedin img {
-      width: 50px;
-      height: 50px;
-      margin: 0 10px 0 0;
-      background-color: white;
-      border-radius: 10px;
-    }
-    
-    .btn_github img {
-      width: 52px;
-      height: 52px;
-      margin: 0 0 0 20px;
-      background-color: rgba(255, 255, 255, 0.026);
-      border-radius: 150px;
-    }
-  
-    .mypicture {
-      width: 300px;
-      height: 300px;
-      border-radius: 25px;
-    }
-  }
+  @media(365px <= width <= 800px){
+   .AboutPage{
+    position: relative;
+    width: 100%;
+    height: 140%;
+   }
 
-  @media (min-width: 1281px) and (min-height: 770px){
+   .about_container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+   } 
 
-    .AboutPage {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      font-weight: lighter;
-      width: 100vw;
-      height: 100vh;
-    }
-  
-    .AboutPage h1{
-      margin-top: 7vh;
-      letter-spacing: 0.9em;
-      color: rgba(211, 211, 211, 0.577);
-    }
-  
-    .about_container {
-      width: 100%;
-      position: absolute;
-      top: 38%;
-      display: flex;
-      align-items: center; 
-      justify-content: center;
-    }
-  
-    .about_container p {
-      margin: 20px 20px 30px;
-      text-align: justify;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 17px;
-      color: rgba(245, 245, 245, 0.676);
-      width: 30vw;
-    }
-  
-    .button_group {
-      width: auto;
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: center;
-      margin: 0 20px;
-    }
-    
-    .btn_linkedin img {
-      width: 50px;
-      height: 50px;
-      margin: 40px 0;
-      background-color: white;
-      border-radius: 10px;
-    }
-    
-    .btn_github img {
-      width: 52px;
-      height: 52px;
-      background-color: rgba(255, 255, 255, 0.026);
-      border-radius: 150px;
-    }
-  
-    .mypicture {
-      width: 300px;
-      height: 300px;
-      border-radius: 15px;
-    }
+   .about_container p {
+    margin-top: 35px;
+   }
+
+   .about_container .mypicture {
+    border-radius: 150px;
+   }
+
+   .button_group {
+    position: absolute;
+    left: 40%;
+    top: 85%;
+    margin: 20px 0 0;
+   }
+
   }

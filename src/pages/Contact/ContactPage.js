@@ -3,11 +3,6 @@ import { Button, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import SpinnerComp from "../../components/Spinner/Spinner";
 import style from "./contact.module.css";
-import phone from "../../images/logos/telephone.png";
-import mail from "../../images/logos/mail.png";
-import placeholder from "../../images/logos/placeholder.png";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
-import React from "react";
 
 function ContactPage() {
   const [spinner, setSpinner] = useState(false);
@@ -29,22 +24,7 @@ function ContactPage() {
     console.log(name);
   };
 
-  const handleClickLinkedin = () => {
-    setSpinner(!spinner);
-    setTimeout(
-      () => (window.location.href = "https://linkedin.com/in/lucas-gaviao"),
-      200
-    );
-  };
-
-  const handleClickGit = () => {
-    setTimeout(
-      () => (window.location.href = "https://github.com/Lucas-Gaviao"),
-      200
-    );
-  };
-
-  const handleSubmit = () => {
+  const handleSend = () => {
     setSpinner(!spinner);
     setTimeout(() => {
       window.open(
@@ -70,15 +50,15 @@ function ContactPage() {
       </section>
       <div className={style.sub_title}>
         <span>
-          <img src={phone} alt="phonelogo" />
+          <img src="" alt="" />
           +353 83 3795009
         </span>
         <span>
-          <img src={mail} alt="maillogo" />
+          <img src="" alt="" />
           gaviao.lucas@gmail.com
         </span>
         <span>
-          <img src={placeholder} alt="locationlogo" />
+          <img src="" alt="" />
           Dublin, Ireland
         </span>
       </div>
@@ -131,41 +111,13 @@ function ContactPage() {
           <Button
             className={style.btn_form}
             variant="secondary"
-            onClick={(e) => handleSubmit()}
+            onClick={handleSend}
           >
             {" "}
-            Submit{" "}
+            Send{" "}
           </Button>
         )}
       </Form>
-
-      <section className={style.btn_group}>
-        <Button
-          className={style.btn_linkedin}
-          variant="link"
-          onClick={() => handleClickLinkedin()}
-        >
-          <BsLinkedin
-            className={style.githublogo}
-            size="38px"
-            color="grey"
-            opacity="65%"
-          />{" "}
-        </Button>
-
-        <Button
-          className={style.btn_github}
-          variant="link"
-          onClick={(e) => handleClickGit()}
-        >
-          <BsGithub
-            className={style.githublogo}
-            size="38px"
-            color="grey"
-            opacity="65%"
-          />
-        </Button>
-      </section>
     </div>
   );
 }

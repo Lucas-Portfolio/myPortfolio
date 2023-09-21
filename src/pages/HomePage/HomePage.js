@@ -1,7 +1,6 @@
 import Image from "react-bootstrap/Image";
 import ReactTyped from "react-typed";
 import style from "./home.module.css";
-import React from "react";
 
 function HomePage() {
   return (
@@ -12,10 +11,10 @@ function HomePage() {
           src="https://res.cloudinary.com/dctxow0kh/image/upload/v1688725707/Foto_epxc6w.jpg"
           roundedCircle
         />
-        <p>Full-Stack Developer </p>
+        <h2>Full-Stack Developer </h2>
         <h1>
           <ReactTyped
-            strings={["Hello There!", "My name is Lucas."]}
+            strings={["Hello World!", "My name is Lucas."]}
             typeSpeed={100}
             backSpeed={100}
             showCursor={true}
