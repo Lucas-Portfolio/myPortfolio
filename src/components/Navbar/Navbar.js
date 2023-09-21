@@ -1,4 +1,7 @@
+import MobileNav from "./MobileNav";
+import Navigation from "./Navigation";
 import style from "./navbar.module.css";
+import React from "react";
 
 function Navbar() {
   return (
@@ -9,20 +12,8 @@ function Navbar() {
             <a href="/">Lucas Gavião</a>
           </h2>
         </div>
-        <ul className={style.links}>
-          <li>
-            <a href="/projects">PROJECTS</a>
-          </li>
-          <li>
-            <a href="/experience">EXPERIENCE</a>
-          </li>
-          <li>
-            <a href="/about">ABOUT</a>
-          </li>
-          <li>
-            <a href="/contact">CONTACT</a>
-          </li>
-        </ul>
+        <MobileNav />
+        <Navigation />
       </nav>
     </section>
   );

@@ -4,11 +4,13 @@
 .App {
   background-color: #191919;
   color: whitesmoke;
-  width: 100vw;
-  height: 100vh;
+  width: auto;
+  height: auto;
   font-family: 'Borel', cursive;
   font-family: 'Bricolage Grotesque', sans-serif;
-  overflow:scroll;
+  overflow:auto;
+  margin: 0;
+  padding: 0;
 }
 
 
